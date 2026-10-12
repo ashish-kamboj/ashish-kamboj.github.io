@@ -342,14 +342,8 @@ section {
   align-items: center;
 }
 
-.about-photo {
-  position: relative;
-}
-
-.about-photo img {
-  border-radius: 24px;
-  box-shadow: var(--shadow);
-  border: 1px solid var(--line);
+.about-grid {
+  grid-template-columns: 1fr;
 }
 
 .about-content p {
